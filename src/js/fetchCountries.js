@@ -5,5 +5,5 @@ export default function fetchCountries(searchQuery) {
     .then(response => {
     return response.json()
     })
-    // .catch(fetchError())
+
 }
