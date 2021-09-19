@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.country-finder {
+  width: 1200px;
+  margin: auto;
+}
+
+.input {
+  display: block;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 480px;
+}
+
+.countries-list {
+  margin-left: 360px;
+}
+
+.country-name {
+  text-align: center;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.country-card {
+  display: flex;
+  justify-content: center;
+}
+
+.flag {
+  max-width: 480px;
+  margin-left: 20px;
+}
